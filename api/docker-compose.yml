@@ -8,4 +8,4 @@ services:
       dockerfile: Dockerfile
     command: uvicorn app.main:app --workers 4 --port 8080
     ports:
-      - 8080:8080
+      - 8069:8080
